@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Livros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à Loja de Livros</h1>
+    </header>
+    <main>
+        <section id="livros">
+            <h2>Livros Disponíveis</h2>
+            <div class="livro" data-titulo="O Alquimista" data-autor="Paulo Coelho" data-preco="29.90">
+                <h3>O Alquimista</h3>
+                <p>Autor: Paulo Coelho</p>
+                <p>Preço: R$ 29,90</p>
+                <button onclick="adicionarAoCarrinho(this)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="livro" data-titulo="1984" data-autor="George Orwell" data-preco="35.00">
+                <h3>1984</h3>
+                <p>Autor: George Orwell</p>
+                <p>Preço: R$ 35,00</p>
+                <button onclick="adicionarAoCarrinho(this)">Adicionar ao Carrinho</button>
+            </div>
+            <div class="livro" data-titulo="Dom Casmurro" data-autor="Machado de Assis" data-preco="40.00">
+                <h3>Dom Casmurro</h3>
+                <p>Autor: Machado de Assis</p>
+                <p>Preço: R$ 40,00</p>
+                <button onclick="adicionarAoCarrinho(this)">Adicionar ao Carrinho</button>
+            </div>
+        </section>
+        <section id="carrinho">
+            <h2>Carrinho</h2>
+            <ul id="lista-carrinho"></ul>
+            <p id="total">Total: R$ 0,00</p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+

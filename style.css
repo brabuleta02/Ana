@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.livro {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+#carrinho {
+    margin-top: 30px;
+    background: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
